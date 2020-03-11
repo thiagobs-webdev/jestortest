@@ -9,7 +9,7 @@ define("SITE", [
     "desc" => "App test do processo seletivo Jestor para gerenciamento de Tickets.",
     "domain" => "jestortest.thiagobs.me/",
     "locale" => "pt_BR",
-    "root" => "https://jestor.thiagobs.me"
+    "root" => "http://localhost/jestortest"
 ]);
 
 
@@ -33,9 +33,9 @@ define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
     "host" => "localhost",
     "port" => "3306",
-    "dbname" => "jestor_test",
-    "username" => "jestortest",
-    "passwd" => "A@ReFU4X5vpz1*QG",
+    "dbname" => "your_bd",
+    "username" => "your_user",
+    "passwd" => "your_password",
     "options" => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
