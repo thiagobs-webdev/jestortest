@@ -1,0 +1,22 @@
+{
+  "name": "jestortest",
+  "version": "1.0.0",
+  "description": "App test do processo seletivo Jestor para gerenciamento de Tickets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagobs-webdev/jestortest.git"
+  },
+  "author": "Thiago Bomfim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagobs-webdev/jestortest/issues"
+  },
+  "homepage": "https://github.com/thiagobs-webdev/jestortest#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
