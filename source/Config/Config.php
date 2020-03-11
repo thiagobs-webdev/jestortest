@@ -2,13 +2,14 @@
 
 /**
  * SITE CONFIG
+ * http://localhost/jestortest
  */
 define("SITE", [
     "name" => "Tickets para atendimento de demandas.",
     "desc" => "App test do processo seletivo Jestor para gerenciamento de Tickets.",
     "domain" => "jestortest.thiagobs.me/",
     "locale" => "pt_BR",
-    "root" => "http://localhost/jestortest"
+    "root" => "https://jestor.thiagobs.me"
 ]);
 
 
@@ -33,8 +34,8 @@ define("DATA_LAYER_CONFIG", [
     "host" => "localhost",
     "port" => "3306",
     "dbname" => "jestor_test",
-    "username" => "root",
-    "passwd" => "",
+    "username" => "jestortest",
+    "passwd" => "A@ReFU4X5vpz1*QG",
     "options" => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
