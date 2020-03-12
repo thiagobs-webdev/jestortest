@@ -65,7 +65,7 @@ define("MAIL", [
     "host" => "smtp.sendgrid.net",
     "port" => "587",
     "user" => "apikey",
-    "passwd" => "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",
+    "passwd" => "your_passwor_sendgrid",
     "from_name" => "Thiago Bomfim",
     "from_email" => "thiagobs.webdev@gmail.com"
 ]);
